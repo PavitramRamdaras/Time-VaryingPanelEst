@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Nov 17 14:26:50 2022
-
 @authors: Marina Friedrich, Yicong Lin, Pavitram Ramdaras, and Bernhard van der Sluis
 """
 
