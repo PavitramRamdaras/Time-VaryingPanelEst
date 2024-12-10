@@ -2,7 +2,7 @@
 """
 Created on Thu Nov 17 14:26:50 2022
 
-@author: pavit
+@authors: Marina Friedrich, Yicong Lin, Pavitram Ramdaras, and Bernhard van der Sluis
 """
 
 import numpy as np
