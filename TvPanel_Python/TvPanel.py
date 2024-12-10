@@ -523,8 +523,8 @@ def getTimeVarPanelRes(mY,mX,mZ,idx,lIndivNames,saveFileNames,all_names,all_titl
     mK_opt = np.asarray([estK(t_i- i/T, h_opt) for i in range(1,T+1)])
     mTheta_hat, vAlpha_hat = est_mdl(mY,mX,t_i,T,N,mK_opt)
     """ INFERENCE FOR THE EXAMPLE CODE:
-    mXbase = mX[:,:,:-3]
-    mZbase = mZ[:,:,:-3]
+    mXbase = mX[:,:,:-2]
+    mZbase = mZ[:,:,:-2]
     mTheta_hatB, vAlpha_hatB = est_mdl(mY,mXbase,t_i,T,N,mK_opt)
     ytBar_predBase = np.asarray([np.mean(mZbase,0)[t,:]@mTheta_hatB[t,:] for t in range(T)])
     #####
